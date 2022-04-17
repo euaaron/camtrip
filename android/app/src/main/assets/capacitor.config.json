@@ -1,0 +1,12 @@
+{
+	"appId": "com.aaroncarneiro.camtrip",
+	"appName": "camtrip",
+	"webDir": "dist",
+	"bundledWebRuntime": false,
+	"plugins": {
+		"SplashScreen": {
+			"launchShowDuration": 0,
+			"launchAutoHide": true
+		}
+	}
+}

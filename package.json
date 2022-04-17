@@ -1,0 +1,39 @@
+{
+  "name": "camtrip",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "build:web": "tsc && vite build",
+    "dev:web": "vite",
+    "dev:android": "cap run android",
+    "dev": "yarn build:web && yarn dev:android"
+  },
+  "dependencies": {
+    "@capacitor-community/camera-preview": "^3.0.0",
+    "@capacitor-community/keep-awake": "^2.1.1",
+    "@capacitor/android": "^3.4.3",
+    "@capacitor/app": "1.1.1",
+    "@capacitor/camera": "^1.3.1",
+    "@capacitor/core": "3.4.3",
+    "@capacitor/haptics": "1.1.4",
+    "@capacitor/keyboard": "1.2.2",
+    "@capacitor/splash-screen": "^1.2.2",
+    "@capacitor/status-bar": "1.0.8",
+    "@types/styled-components": "^5.1.25",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-icons": "^4.3.1",
+    "react-webcam": "^7.0.1",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "3.4.3",
+    "@types/node": "^17.0.24",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^1.3.0",
+    "native-run": "^1.5.0",
+    "typescript": "^4.6.3",
+    "vite": "^2.9.2"
+  }
+}
